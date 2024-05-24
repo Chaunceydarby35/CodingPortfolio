@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Me2 from '/public/Images/Me2.jpg'
 import { GiGraduateCap } from 'react-icons/gi'
-import { BsTelephoneForward } from 'react-icons/bs'
 import { TfiWorld } from 'react-icons/tfi'
+import { BsTelephoneForward } from 'react-icons/bs'
 import '../Aboutm/Aboutm.css'
 
 const Aboutm = () => {
