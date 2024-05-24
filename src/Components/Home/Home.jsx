@@ -13,7 +13,7 @@ const Home = () => {
             <h1>Chauncey Lovell Darby</h1>
             <h5 className="text-light">Junior Front-End Developer</h5>
             <div className="cta">
-                <a href="" download className="btn"> 
+                <a href="https://drive.google.com/file/d/12wewmVx75Ngk8DYjgtiA_TCopzk5HaZR/view?usp=drive_link" download className="btn"> 
                     Download CV
                 </a>
                 <a href="#contact" className="btn btn-primary"> 
