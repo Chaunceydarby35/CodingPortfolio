@@ -1,6 +1,6 @@
 .contact_container {
     width: 58%;
-    display: grid;
+    display: flexbox;
     grid-template-columns: 30% 58%;
     gap: 12%;
 }

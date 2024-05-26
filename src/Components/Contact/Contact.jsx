@@ -25,12 +25,7 @@ const Contact = () => {
               <a href="https://github.com/Chaunceydarby35">Open</a>
           </article>
         </div>
-        <form id="contact-form"> 
-          <input type="text" name='name' placeholder='Your Name' required/>
-          <input type="email" name='email' placeholder='Your Email' required/>
-          <textarea name="message" id="message" rows="7" placeholder='Your Message'></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
-        </form>
+        
       </div>
     </section>
   )
