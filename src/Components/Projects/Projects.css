@@ -28,6 +28,7 @@
 
 .project_item_btn {
     margin: 2rem 0 1rem 0;
+    border-radius: 50%;
 }
 
 /* media query for medium devices */

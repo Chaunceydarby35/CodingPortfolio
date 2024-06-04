@@ -6,8 +6,9 @@
 
 .about_me {
     width: 90%;
+    height: 90%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     background: linear-gradient(-45deg, transparent, var(--color-primary));
     display: grid;
     place-items: center;
@@ -16,7 +17,7 @@
 }
 
 .about_me_image {
-    border-radius: 2rem;
+    border-radius: 0.7rem;
     overflow: hidden;
     transform: rotate(-10deg);
     transition: var(--transition);
