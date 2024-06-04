@@ -2,6 +2,7 @@ import '../Projects/Projects.css'
 import Gobble from '/Images/Gobble!.png'
 import Weather from '/Images/WeatherSnap.png'
 import Phrases from '/Images/PhrasesApp.png'
+import Cryptocatch from '/Images/cryptocatch.png'
 
 
 
@@ -40,7 +41,7 @@ const Projects = () => {
         </article>
         <article className="project_item">
             <div className="project_item_image">
-                <img src={Gobble} alt="cryptocatch" />
+                <img src={Cryptocatch} alt="cryptocatch" />
             </div>
             <h3>Crypto Catch!</h3>
             <small className="text-light">CSS</small>
