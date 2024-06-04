@@ -17,6 +17,10 @@ header {
     justify-content: center;
 }
 
+.cta .btn {
+    border-radius: 100%;
+}
+
 /*social*/
 
 .home_social {
@@ -41,10 +45,10 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 35rem;
+    height: 33rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 3rem;
+    margin-top: 6.4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1rem 1.5rem 2.5rem 1rem;
@@ -58,6 +62,7 @@ img {
 
 .me > img { 
     margin-left: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 /* scroll down */

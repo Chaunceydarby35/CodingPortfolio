@@ -6,14 +6,15 @@
 
 .about_me {
     width: 90%;
-    height: 100%;
+    height: 90%;
     aspect-ratio: 1/1;
     border-radius: 1.5rem;
     background: linear-gradient(-45deg, transparent, var(--color-primary));
     display: grid;
     place-items: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .about_me_image {
@@ -31,6 +32,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    padding-top: 3rem;
 }
 
 .about_card {
@@ -101,6 +103,7 @@
     .about_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        margin-top: 3rem;
     }
 
     .about_content {
