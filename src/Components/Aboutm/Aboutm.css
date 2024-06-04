@@ -64,6 +64,8 @@
 
 .about_content p {
     margin: 2rem 0 2.6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 /* media query for medium device */
@@ -102,6 +104,8 @@
 
     .about_content p {
         margin: 1.5rem 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
 }
