@@ -40,16 +40,16 @@ const Projects = () => {
         </article>
         <article className="project_item">
             <div className="project_item_image">
-                <img src={Gobble} alt="Gobble" />
+                <img src={Gobble} alt="cryptocatch" />
             </div>
-            <h3>Gobble!</h3>
+            <h3>Crypto Catch!</h3>
             <small className="text-light">CSS</small>
             <br />
             <small className="text-light">Javascript</small>
             <br />
             <small className="text-light">React.JS</small>
             <div className="project_item_btn">
-                <a href="https://github.com/Chaunceydarby35/Food-Del-App" className="btn">Github</a>
+                <a href="https://github.com/Chaunceydarby35/Cryptocurrency-Tracker-App" className="btn">Github</a>
             </div>
         </article>
     </div>
