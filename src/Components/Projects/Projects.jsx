@@ -1,5 +1,4 @@
 import '../Projects/Projects.css'
-import Gobble from '/Images/Gobble!.png'
 import Weather from '/Images/WeatherSnap.png'
 import Phrases from '/Images/PhrasesApp.png'
 import Cryptocatch from '/Images/cryptocatch.png'
