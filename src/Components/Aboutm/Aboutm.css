@@ -6,7 +6,7 @@
 
 .about_me {
     width: 90%;
-    height: 90%;
+    height: 100%;
     aspect-ratio: 1/1;
     border-radius: 1.5rem;
     background: linear-gradient(-45deg, transparent, var(--color-primary));
@@ -79,6 +79,7 @@
 
     .about_me {
         width: 50%;
+        height: 100%;
         margin: 2rem auto 4rem;
     }
 
@@ -92,6 +93,9 @@
 @media screen and (max-width: 600px) {
     .about_me {
         width: 65%;
+        height: 100%;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
         margin: 0 auto 3rem;
     }
     .about_cards {
