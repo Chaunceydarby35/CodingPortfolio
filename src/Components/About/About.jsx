@@ -3,9 +3,9 @@ import Me2 from '/public/Images/Me2.jpg'
 import { GiGraduateCap } from 'react-icons/gi'
 import { TfiWorld } from 'react-icons/tfi'
 import { BsTelephoneForward } from 'react-icons/bs'
-import '../Aboutm/Aboutm.css'
+import '../About/About.css'
 
-const Aboutm = () => {
+const About = () => {
   return (
     <section id='about'>
     <h5>Get To Know</h5>
@@ -31,7 +31,7 @@ const Aboutm = () => {
             </article>
             <article className="about_card">
                 <TfiWorld className='about_icon'/>
-                <h5>Madrid</h5>
+                <h5>Location</h5>
                 <small>
                    Calle Manuel Fernandez Caballero, 1, 28019, Madrid Spain
                 </small>
@@ -60,4 +60,4 @@ const Aboutm = () => {
   )
 }
 
-export default Aboutm
+export default About

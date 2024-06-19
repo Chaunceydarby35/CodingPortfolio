@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container home_container">
             <h5>Hello, I'm</h5>
             <h1>Chauncey Lovell Darby</h1>
-            <h5 className="text-light">Junior Front-End Developer</h5>
+            <h5 className="text-light">Front-End Developer</h5>
             <div className="cta">
                 <a href="https://docs.google.com/document/d/1T2SZgILmTQb7THBnBAkXfY7bLj7_yXJ2/edit?usp=sharing&ouid=107299808604221766895&rtpof=true&sd=true" download className="btn"> 
                     Download CV
@@ -37,7 +37,7 @@ const Home = () => {
             </div>
 
             <a href="#contact" className="scroll_down">
-                Scroll Down
+                Direct Contact
             </a>
         </div>
     </header>

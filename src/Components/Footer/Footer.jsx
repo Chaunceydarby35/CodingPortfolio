@@ -1,4 +1,4 @@
-import '../Footer1/Footer1.css'
+import './Footer.css'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
 import { BsMedium } from 'react-icons/bs'
