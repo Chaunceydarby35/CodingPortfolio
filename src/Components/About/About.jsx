@@ -49,8 +49,8 @@ const About = () => {
         </div>
         <p>
         Hello! I'm Chauncey Lovell Darby, a passionate Junior Front-End Web Developer with a keen eye for design and a love for creating engaging user experiences. I thrive on turning ideas into interactive, responsive websites that not only look great but also function seamlessly across various devices.
-        With a solid foundation in HTML, CSS, and JavaScript, I am constantly honing my skills and exploring new technologies to stay at the forefront of web development trends. I believe in the power of clean, efficient code and enjoy the challenge of bringing designs to life through innovative solutions.
-        When I'm not coding, you can find me experimenting with new design trends, attending tech meetups, or diving into online tutorials to expand my knowledge. I am excited to collaborate with like-minded individuals and contribute to projects that push the boundaries of web development.
+        With a solid foundation in Front-end Development, I am constantly honing my skills and exploring new technologies to stay at the forefront of web development trends.
+        I am excited to collaborate with like-minded individuals and contribute to projects that push the boundaries of web development.
         Let's connect and create something amazing together!
         </p>
     </div>
