@@ -1,3 +1,19 @@
+/* General Styles */
+:root {
+    --primary-color: var(--color-primary);
+    --bg-variant: var(--color-bg-variant);
+    --light-color: var(--color-light);
+    --transition: var(--transition);
+    --border-radius-large: 1.5rem;
+    --border-radius-medium: 0.7rem;
+    --border-radius-small: 1rem;
+    --padding-small: 0.6rem;
+    --padding-large: 4rem;
+    --font-size-icon: 1.4rem;
+    --font-size-small: 0.7rem;
+    --font-size-medium: 0.95rem;
+}
+
 .about_container {
     display: grid;
     grid-template-columns: 30% 50%;
@@ -7,18 +23,17 @@
 .about_me {
     width: 90%;
     height: 90%;
-    aspect-ratio: 1/1;
-    border-radius: 1.5rem;
-    background: linear-gradient(-45deg, transparent, var(--color-primary));
+    aspect-ratio: 1 / 1;
+    border-radius: var(--border-radius-large);
+    background: linear-gradient(-45deg, transparent, var(--primary-color));
     display: grid;
     place-items: center;
     margin: 1rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: var(--padding-large) 0;
 }
 
 .about_me_image {
-    border-radius: 0.7rem;
+    border-radius: var(--border-radius-medium);
     overflow: hidden;
     transform: rotate(-10deg);
     transition: var(--transition);
@@ -36,43 +51,42 @@
 }
 
 .about_card {
-    background: var(--color-bg-variant);
+    background: var(--bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: .6rem;
+    border-radius: var(--border-radius-small);
+    padding: var(--padding-small);
     text-align: center;
     transition: var(--transition);
 }
 
 .about_card:hover {
     background: transparent;
-    border-color: var(--color-primary);
+    border-color: var(--primary-color);
     cursor: default;
 }
 
 .about_icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-size: var(--font-size-icon);
     margin-bottom: 0.4rem;
 }
 
 .about_card small {
-    font-size: .7rem;
-    color: var(--color-light);
+    font-size: var(--font-size-small);
+    color: var(--light-color);
 }
 
 .about_card h5 {
-    font-size: 0.95rem;
+    font-size: var(--font-size-medium);
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin: 2rem 1.5rem 2.6rem;
 }
 
-/* media query for medium device */
+/* Media Queries */
 
+/* Medium devices (<= 1024px) */
 @media screen and (max-width: 1024px) {
     .about_container {
         grid-template-columns: 1fr;
@@ -90,16 +104,15 @@
     }
 }
 
-/* for small devices */
-
+/* Small devices (<= 600px) */
 @media screen and (max-width: 600px) {
     .about_me {
         width: 65%;
         height: 100%;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        padding: 2rem 0;
         margin: 0 auto 3rem;
     }
+
     .about_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -111,9 +124,6 @@
     }
 
     .about_content p {
-        margin: 1.5rem 0;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin: 1.5rem 1rem;
     }
-
 }
