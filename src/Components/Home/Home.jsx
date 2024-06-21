@@ -35,10 +35,6 @@ const Home = () => {
             <div className="me">
                 <img className="Me" src={Me} alt="Chauncey" />
             </div>
-
-            <a href="#contact" className="scroll_down">
-                Direct Contact
-            </a>
         </div>
     </header>
   )
