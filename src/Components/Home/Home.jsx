@@ -23,6 +23,7 @@ const Home = () => {
                     <BsMedium/>
                 </a>
             </div>
+            
             <div className="cta">
                 <a href="https://docs.google.com/document/d/1T2SZgILmTQb7THBnBAkXfY7bLj7_yXJ2/edit?usp=sharing&ouid=107299808604221766895&rtpof=true&sd=true" download className="btn"> 
                     Download CV
