@@ -25,10 +25,11 @@ header {
 
 .home_social {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 300px;
     bottom: 3rem;
 }
 

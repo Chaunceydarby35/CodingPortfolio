@@ -12,14 +12,6 @@ const Home = () => {
             <h5>Hello, I'm</h5>
             <h1>Chauncey Lovell Darby</h1>
             <h5 className="text-light">Front-End Developer</h5>
-            <div className="cta">
-                <a href="https://docs.google.com/document/d/1T2SZgILmTQb7THBnBAkXfY7bLj7_yXJ2/edit?usp=sharing&ouid=107299808604221766895&rtpof=true&sd=true" download className="btn"> 
-                    Download CV
-                </a>
-                <a href="#contact" className="btn btn-primary"> 
-                    Contact Me
-                </a>
-            </div>
             <div className="home_social">
                 <a href="https://www.linkedin.com/in/chauncey-darby-a8081826/">
                     <BsLinkedin/>
@@ -31,6 +23,15 @@ const Home = () => {
                     <BsMedium/>
                 </a>
             </div>
+            <div className="cta">
+                <a href="https://docs.google.com/document/d/1T2SZgILmTQb7THBnBAkXfY7bLj7_yXJ2/edit?usp=sharing&ouid=107299808604221766895&rtpof=true&sd=true" download className="btn"> 
+                    Download CV
+                </a>
+                <a href="#contact" className="btn btn-primary"> 
+                    Contact Me
+                </a>
+            </div>
+        
 
             <div className="me">
                 <img className="Me" src={Me} alt="Chauncey" />
