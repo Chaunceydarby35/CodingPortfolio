@@ -20,9 +20,8 @@ The Portfolio Website is a personal website created to showcase the skills, proj
 - Enhance SEO for better visibility and reach
 
 ### Credits:
-- Design inspiration and resources from various web development communities
-- Icons and graphics sourced from reputable repositories
-- YousafKhan1 
+- Design inspiration and resources from YousafKhan1
+- Icons and graphics sourced from YousafKhan1 
 
 ### Feedback:
 If you have any feedback, suggestions, or inquiries, please feel free to reach out to Chauncey DArby at Chaunceydrb@gmail.com.
