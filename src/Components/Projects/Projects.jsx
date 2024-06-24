@@ -13,7 +13,7 @@ const Projects = () => {
 
     <div className="container project_container">
         <article className="project_item">
-            <div className="project_item_image">
+            <div className="project_item_image_a">
                 <img src={Weather} alt="WeatherSnap" />
             </div>
             <h3>WeatherSnap</h3>
@@ -32,6 +32,8 @@ const Projects = () => {
             </div>
             <h3>Phrases</h3>
             <small className="text-light">CSS</small> 
+            <br />
+            <small className='text-light'>Javascript</small>
             <br />
             <small className="text-light">React.JS</small>
             <div className="project_item_btn">
