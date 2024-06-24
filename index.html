@@ -10,5 +10,18 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Function to remove fragment identifier
+      function removeFragmentIdentifier() {
+          // Check if there is a hash in the URL
+          if (window.location.hash) {
+              // Remove the hash
+              history.replaceState(null, null, window.location.pathname + window.location.search);
+          }
+      }
+      
+      // Call the function on page load
+      window.onload = removeFragmentIdentifier;
+      </script>      
   </body>
 </html>
