@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <header id="home">
         <div className="container home_container">
-            <h5>Hello, I'm</h5>
+            <h3>Hello, I'm</h3>
             <h1>Chauncey Lovell Darby</h1>
-            <h5 className="text-light">Front-End Developer</h5>
+            <h3 className="text-light">Front-End Developer</h3>
             <div className="home_social">
                 <a href="https://www.linkedin.com/in/chauncey-darby-a8081826/">
                     <BsLinkedin/>
