@@ -42,8 +42,8 @@ header {
     align-items: center;
     gap: var(--home-social-gap);
     position: absolute;
-    left: 300px;
-    bottom: 210px;
+    left: 500px;
+    bottom: 350px;
 }
 
 .home_social::after {

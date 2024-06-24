@@ -20,10 +20,10 @@
     transition: var(--transition);
 }
 
-.contact_option:hover {
+/* .contact_option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-}
+} */
 
 .contact_option_icon {
     font-size: 1.5rem;
@@ -33,7 +33,7 @@
 .contact_option a {
     margin-top: .7rem;
     display: inline-block;
-    font-size: .8rem;
+    font-size: 30px;
 }
 
 form {

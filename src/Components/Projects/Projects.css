@@ -35,6 +35,7 @@
     background: transparent;
 }
 
+/* Project Item Image */
 .project_item_image {
     border-radius: var(--border-radius-medium);
     overflow: hidden;
@@ -52,7 +53,7 @@
 
 /* Media Queries */
 
-/* Medium devices (<= 1024px) */
+/* Mnedium devices (<= 1024px) */
 @media screen and (max-width: 1024px) {
     .project_container {
         grid-template-columns: 1fr 1fr;
