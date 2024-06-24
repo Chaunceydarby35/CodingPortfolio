@@ -4,7 +4,7 @@
     --bg-variant: var(--color-bg-variant);
     --light-color: var(--color-light);
     --transition: var(--transition);
-    --border-radius-large: 1.5rem;
+    --border-radius-large: 2rem;
     --border-radius-medium: 0.7rem;
     --border-radius-small: 1rem;
     --padding-small: 0.6rem;
@@ -22,7 +22,6 @@
 
 .about_me {
     width: 90%;
-    height: 90%;
     aspect-ratio: 1 / 1;
     border-radius: var(--border-radius-large);
     background: linear-gradient(-45deg, transparent, var(--primary-color));
