@@ -4,12 +4,12 @@
     --transition: var(--transition);
     --header-height-large: 100vh;
     --header-height-medium: 60vh;
-    --cta-gap: 1.2rem;
-    --home-social-gap: 0.8rem;
-    --me-width: 22rem;
-    --me-height: 33rem;
+    --cta-gap: 1.5rem;
+    --home-social-gap: 0.9rem;
+    --me-width: 24rem;
+    --me-height: 35rem;
     --me-border-radius: 12rem 12rem 0 0;
-    --img-size: 340px;
+    --img-size: 350px;
     --scroll-down-font-size: 0.9rem;
 }
 
@@ -43,7 +43,7 @@ header {
     gap: var(--home-social-gap);
     position: absolute;
     left: 500px;
-    bottom: 350px;
+    bottom: 340px;
 }
 
 /* .home_social::after {
@@ -60,7 +60,7 @@ header {
     height: var(--me-height);
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 6.4rem;
+    margin-top: 6.2rem;
     border-radius: var(--me-border-radius);
     overflow: hidden;
     padding: 1rem 1.5rem 2.5rem 1rem;
