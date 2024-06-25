@@ -34,9 +34,9 @@ const Home = () => {
             </div>
         
 
-            <div className="me">
+            {/* <div className="me">
                 <img className="Me" src={Me} alt="Chauncey" />
-            </div>
+            </div> */}
         </div>
     </header>
   )
