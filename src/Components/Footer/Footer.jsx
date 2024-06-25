@@ -1,7 +1,7 @@
 import './Footer.css'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
-import { BsMedium } from 'react-icons/bs'
+
 
 const Footer1 = () => {
   return (
@@ -17,7 +17,7 @@ const Footer1 = () => {
     <div className='footer_social'>
         <a href="https://www.linkedin.com/in/chauncey-darby-a8081826/"><BsLinkedin/></a>
         <a href="https://github.com/Chaunceydarby35"><BsGithub/></a>
-        <a href="https://medium.com/@chaunceydrb"><BsMedium/></a>
+  
     </div>
 
     <div className='footer_copyright'>

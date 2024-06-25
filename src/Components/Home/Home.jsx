@@ -12,7 +12,7 @@ const Home = () => {
             <h3>Hello, I'm</h3>
             <h1>Chauncey Lovell Darby</h1>
             <h3 className="text-light">Front-End Developer</h3>
-            <div className="home_social">
+            {/* <div className="home_social">
                 <a href="https://www.linkedin.com/in/chauncey-darby-a8081826/">
                     <BsLinkedin/>
                 </a>
@@ -22,7 +22,7 @@ const Home = () => {
                 <a href="https://medium.com/@chaunceydrb">
                     <BsMedium/>
                 </a>
-            </div>
+            </div> */}
             
             <div className="cta">
                 <a href="https://drive.google.com/file/d/1YiFWoZISEAz9wnUVJ0BQtXrS4ArrSYBM/view" download className="btn"> 
