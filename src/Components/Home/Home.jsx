@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             
             <div className="cta">
-                <a href="https://docs.google.com/document/d/1T2SZgILmTQb7THBnBAkXfY7bLj7_yXJ2/edit?usp=sharing&ouid=107299808604221766895&rtpof=true&sd=true" download className="btn"> 
+                <a href="https://drive.google.com/file/d/1YiFWoZISEAz9wnUVJ0BQtXrS4ArrSYBM/view" download className="btn"> 
                     Download CV
                 </a>
                 <a href="#contact" className="btn btn-primary"> 
